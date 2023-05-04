@@ -4,7 +4,8 @@ function Def(html) {
     return (
         <html>
             <head>
-                <title> Title</title>
+                <title>Title</title>
+                <link rel="stylesheet" href="/css/style.css" />
             </head>
             <body>
                 {html.children}
