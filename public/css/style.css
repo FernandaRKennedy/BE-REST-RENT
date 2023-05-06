@@ -1,11 +1,11 @@
 body {
-    /* background-color: lightblue; */
+    background-color: lightblue;
     text-align: center;
 }
 
 main {
-    /* margin-right: 20px;
-    margin-left: 20px; */
+    margin-right: 20px;
+    margin-left: 20px;
     background-color: white;
 }
 
@@ -36,12 +36,12 @@ button {
     margin-right: auto;
 }
 
-/* nav {
+nav {
     background-color: cornflowerblue;
     padding: 10px;
-} */
+}
 
-/* nav ul {
+nav ul {
     list-style-type: none;
     margin: 0;
 }
@@ -59,7 +59,8 @@ nav a {
 nav a:hover {
     color: pink;
     text-decoration: none;
-} */
+}
+
 
 div {
     padding: 20px;
