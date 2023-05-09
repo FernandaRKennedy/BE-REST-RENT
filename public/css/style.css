@@ -6,6 +6,7 @@ body {
 main {
     margin-right: 20px;
     margin-left: 20px;
+    padding: 20px;
     background-color: white;
 }
 
@@ -15,10 +16,10 @@ h1 {
 }
 
 
-/* h2 {
+h2 {
     color: lightblue;
     text-align: center;
-} */
+}
 
 img {
     display: block;
@@ -57,11 +58,15 @@ nav a {
 }
 
 nav a:hover {
-    color: pink;
+    color: lightblue;
     text-decoration: none;
 }
 
 
 div {
     padding: 20px;
+}
+
+.inactive {
+    color: gray;
 }
