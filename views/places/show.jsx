@@ -32,9 +32,6 @@ function show(data) {
                         </h3>
                     </div>
                     <h2>Comments</h2>
-                    <h3 className="inactive">
-                        No comments yet!
-                    </h3>
                     <a href={`/places/${data.id}/edit`} className="btn btn-warning">
                         Edit
                     </a>
