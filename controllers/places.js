@@ -13,7 +13,7 @@ router.get('/', (req, res) => {
 })
 
 router.post('/', (req, res) => {
-  db.Place.create(req.body)
+  db.Place.create(req.body) 
   .then(() => {
     res.redirect('/places')
   })
@@ -21,8 +21,7 @@ router.post('/', (req, res) => {
     console.log('err', err)
     res.render('error404')
   })
-})
-
+ })
 
 router.get('/new', (req, res) => {
   res.render('places/new')
