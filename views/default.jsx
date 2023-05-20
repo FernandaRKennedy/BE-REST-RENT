@@ -20,7 +20,6 @@ function Def(html) {
                     </li>
                 </ul>
             </nav>
-
             <body>
                 {html.children}
             </body>
