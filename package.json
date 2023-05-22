@@ -13,6 +13,9 @@
   "scripts": {
     "dev": "npx nodemon index.js -e js,jsx"
   },
+  "engines": {
+    "node": "18.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FernandaRKennedy/BE-REST-RENT.git"
